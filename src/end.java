@@ -23,15 +23,16 @@ public class end {
 		driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();
 		driver.findElement(By.xpath("//a[@value='KQH']")).click();
 		
-		//developer first
-
-		driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();
-		driver.findElement(By.xpath("//a[@value='KQH']")).click();
+		//first tester
 		
-		//developer second
+				driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();
+				driver.findElement(By.xpath("//a[@value='KQH']")).click();
+				
+				//second tester
+				driver.findElement(By.xpath("//a[@value='KQH']")).click();
+				
+				
 
-		driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();
-		driver.findElement(By.xpath("//a[@value='KQH']")).click();
 		
 	}
 	
