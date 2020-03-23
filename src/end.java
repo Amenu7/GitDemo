@@ -25,6 +25,10 @@ public class end {
 		//developer
 		driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();
 		driver.findElement(By.xpath("//a[@value='KQH']")).click();
+		//second developer
+		driver.findElement(By.xpath("//a[@value='KQH']")).click();
+		
+		
 
 		
 	}
