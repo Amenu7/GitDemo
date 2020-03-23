@@ -32,6 +32,8 @@ public class end {
 		driver.findElement(By.xpath("//a[@value='KQH']")).click();
 		//tester2
 		driver.findElement(By.xpath("//a[@value='KQH']")).click();
+		//developerr
+		driver.findElement(By.xpath("//a[@value='KQH']")).click();
 		
 		
   
