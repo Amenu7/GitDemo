@@ -23,6 +23,11 @@ public class end {
 		driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();
 		driver.findElement(By.xpath("//a[@value='KQH']")).click();
 		
+<<<<<<< HEAD
+=======
+		
+
+>>>>>>> afe668f0f72c76fb1733fa35640c8017414d477c
 		
 	}
 	
